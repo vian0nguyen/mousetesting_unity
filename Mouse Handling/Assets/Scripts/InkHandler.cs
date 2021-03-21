@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Ink.Runtime;
 using UnityEngine;
 
 public class InkHandler : MonoBehaviour
