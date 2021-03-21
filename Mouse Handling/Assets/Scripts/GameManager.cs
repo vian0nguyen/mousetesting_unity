@@ -12,7 +12,8 @@ public class GameManager : MonoBehaviour
      }*/
 
     //ATM not working idk why :shrug:!
-    //TODO: make work baby
+    //TODO: input functionality unhinged from Spawn script
+    //INK integration https://www.youtube.com/watch?v=YW4YdsBtC38&list=PLlXuD3kyVEr5V8bK9TnEptHgoa_mYMTjb&index=2 
     private void OnMouseDown()
     {
         spawner.spawnNow = true;
