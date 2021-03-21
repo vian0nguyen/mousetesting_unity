@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Dragging.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GlobalListener.cs" />
+    <Compile Include="Assets\Scripts\InkHandler.cs" />
     <Compile Include="Assets\Scripts\RaycastOnClick.cs" />
     <Compile Include="Assets\Scripts\Spawn.cs" />
     <Reference Include="UnityEngine">
