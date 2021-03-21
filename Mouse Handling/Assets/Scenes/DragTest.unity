@@ -344,6 +344,7 @@ MonoBehaviour:
   spawnObject: {fileID: 8172824020101148947, guid: 34a62004139c6d64e91d1a323381a284,
     type: 3}
   spawnNow: 0
+  waitTime: 1
 --- !u!4 &1251197433
 Transform:
   m_ObjectHideFlags: 0
@@ -392,6 +393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dragOpacity: 0.5
   rb2d: {fileID: 1579290626}
+  gravity: 1
 --- !u!50 &1579290626
 Rigidbody2D:
   serializedVersion: 4

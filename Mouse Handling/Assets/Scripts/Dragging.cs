@@ -8,6 +8,7 @@ public class Dragging : MonoBehaviour
 	public float dragOpacity = 0.5f;// How transparent do we become while being dragged?
 	SpriteRenderer sprite; // We'll use this to change the sprite color when it comes into contact with another collider.
 	public Rigidbody2D rb2d;
+	public float gravity;
 
 	bool isDragging;// Is the player currently dragging the object around?
 
@@ -61,7 +62,7 @@ public class Dragging : MonoBehaviour
 		if(isDragging == false)
         {
 			Debug.Log("hello?");
-			rb2d.gravityScale++;
+			rb2d.gravityScale = gravity;
 			
 
         }
