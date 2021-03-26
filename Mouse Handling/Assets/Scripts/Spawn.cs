@@ -10,7 +10,7 @@ public class Spawn : MonoBehaviour
     public float waitTime;
     public Transform parentPos;
     public GameObject textPrefab;
-    public int spawnNum;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -25,14 +25,14 @@ public class Spawn : MonoBehaviour
         if (spawnNow == true)
         {
 
-            spawnNum++; //send this number to script holding text events depending on spawnNum
-            Debug.Log("now spawning");
+            
+          //  Debug.Log("now spawning");
             // Instantiate the projectile at the position and rotation of this transform
             GameObject clone;
             clone = Instantiate(spawnObject, transform.position, transform.rotation);
 
             //test child text spawn
-            Debug.Log("spawn text");
+           // Debug.Log("spawn text");
             GameObject textChild = Instantiate(textPrefab, parentPos);
             
         }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 137951482802086103}
   - component: {fileID: 137951482802086102}
   - component: {fileID: 137951482802086101}
+  - component: {fileID: 3304369768816736390}
   m_Layer: 0
   m_Name: Sender (1)
   m_TagString: Spawn1
@@ -99,7 +100,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -121,6 +122,21 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.44}
   m_Size: {x: 8.03, y: 3.09}
   m_Direction: 1
+--- !u!114 &3304369768816736390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137951482802086100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 896a0dd36b841444c925272af1b1196a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 0}
+  isDragSend: 0
+  gravity: -1
 --- !u!1 &137951483116125992
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,7 +149,6 @@ GameObject:
   - component: {fileID: 137951483116126164}
   - component: {fileID: 137951483116125995}
   - component: {fileID: 137951483116125994}
-  - component: {fileID: 7578654456621184549}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -221,18 +236,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &7578654456621184549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137951483116125992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cabf92c0a8f8e6d4787f5311a861de64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &137951484281025448
 GameObject:
   m_ObjectHideFlags: 0

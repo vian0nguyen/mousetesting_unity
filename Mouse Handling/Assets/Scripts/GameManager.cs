@@ -8,6 +8,11 @@ public class GameManager : MonoBehaviour
     public Spawn reciever;
     public float waitTime;
 
+    public bool selected;
+
+    public int spawnSenderNum;
+    public int spawnRecieverNum;
+
 
     //TODO: move this code ONTO the messages themselves
     //start functionality where when a sender message is selected a 
@@ -28,15 +33,18 @@ public class GameManager : MonoBehaviour
     //test function
     public void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        /*if (Input.GetMouseButtonDown(0))
         {
             Debug.Log("click");
+            spawnSenderNum++;
             sender.spawnNow = true;
             StartCoroutine("WaitSpawnTimes");
 
-        } else if (Input.GetMouseButtonUp(0))
+        } */ //above works on mose press and release spawn
+        /*else*/ if (Input.GetMouseButtonUp(0))
         {
-            Debug.Log("release");
+            spawnRecieverNum++;
+           // Debug.Log("release");
             reciever.spawnNow = true;
             StartCoroutine("WaitSpawnTimes");
         }
