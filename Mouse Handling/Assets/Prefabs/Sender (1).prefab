@@ -134,9 +134,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 896a0dd36b841444c925272af1b1196a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  choiceObj: {fileID: 0}
   gm: {fileID: 0}
   isDragSend: 0
   gravity: -1
+  selected: 0
 --- !u!1 &137951483116125992
 GameObject:
   m_ObjectHideFlags: 0
