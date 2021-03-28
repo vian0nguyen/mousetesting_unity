@@ -64,10 +64,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ChoiceDestroy.cs" />
     <Compile Include="Assets\Ink\Demos\Basic Demo\Scripts\BasicInkExample.cs" />
     <Compile Include="Assets\Ink\Demos\Basic Demo\Scripts\QuitGameOnKeypress.cs" />
-    <Compile Include="Assets\Remain.cs" />
     <Compile Include="Assets\Scripts\BuiltinEvents.cs" />
     <Compile Include="Assets\Scripts\Draggable.cs" />
     <Compile Include="Assets\Scripts\Dragging.cs" />
@@ -75,8 +73,9 @@
     <Compile Include="Assets\Scripts\GlobalListener.cs" />
     <Compile Include="Assets\Scripts\InkHandler.cs" />
     <Compile Include="Assets\Scripts\RaycastOnClick.cs" />
+    <Compile Include="Assets\Scripts\Remain.cs" />
+    <Compile Include="Assets\Scripts\SenderOnDrag.cs" />
     <Compile Include="Assets\Scripts\Spawn.cs" />
-    <Compile Include="Assets\SenderOnDrag.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />

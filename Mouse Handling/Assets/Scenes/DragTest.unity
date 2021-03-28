@@ -296,6 +296,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sender (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 137951482802086100, guid: 07afdd3d6d037714eaeab16401060500,
+        type: 3}
+      propertyPath: m_TagString
+      value: Choice1
+      objectReference: {fileID: 0}
+    - target: {fileID: 137951482802086103, guid: 07afdd3d6d037714eaeab16401060500,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 137951483116126164, guid: 07afdd3d6d037714eaeab16401060500,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 137951484281025450, guid: 07afdd3d6d037714eaeab16401060500,
         type: 3}
       propertyPath: m_textInfo.lineCount
@@ -478,10 +493,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sender (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 137951482802086100, guid: 07afdd3d6d037714eaeab16401060500,
+        type: 3}
+      propertyPath: m_TagString
+      value: Choice2
+      objectReference: {fileID: 0}
     - target: {fileID: 137951482802086102, guid: 07afdd3d6d037714eaeab16401060500,
         type: 3}
       propertyPath: m_GravityScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 137951482802086103, guid: 07afdd3d6d037714eaeab16401060500,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 137951483116126164, guid: 07afdd3d6d037714eaeab16401060500,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 137951484281025450, guid: 07afdd3d6d037714eaeab16401060500,
         type: 3}
@@ -1189,7 +1219,7 @@ GameObject:
   - component: {fileID: 2040169190}
   - component: {fileID: 2040169189}
   - component: {fileID: 2040169191}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ChoiceZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1250,6 +1280,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gm: {fileID: 2135900825}
   WaitDestroy: 2
+  selected: 0
+  senderOnDrags: []
 --- !u!1 &2135900824
 GameObject:
   m_ObjectHideFlags: 0

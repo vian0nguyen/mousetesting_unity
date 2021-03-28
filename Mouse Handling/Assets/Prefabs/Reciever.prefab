@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7635934579261411559}
   - component: {fileID: 7771308681610683642}
   - component: {fileID: 8382286327632827333}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: TextChild
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 6852004031532402300}
   - component: {fileID: 7213971682946930973}
   - component: {fileID: 6601210718104088645}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 8172824020101148950}
   - component: {fileID: 8172824020101148949}
   - component: {fileID: -5937667666619452284}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Reciever
   m_TagString: Spawn2
   m_Icon: {fileID: 0}
