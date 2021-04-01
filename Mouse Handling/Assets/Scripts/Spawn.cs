@@ -43,20 +43,12 @@ public class Spawn : MonoBehaviour
 
    
         }
-        //take it outside and make not local to call the variable out
-        Vector3 parentPos = new Vector3(clone.transform.position.x, clone.transform.position.y, transform.position.z);
-        //above is only called when spawn now is true
-        //this should be moved to be checking at all tiems
-        //Debug.Log(parentPos);//test to see what parentPos 
 
     }
 
     public void CreateText(string text) //called in gamemanager
     {
         choiceText.text = text;
-        choiceText.transform.position = new Vector3(parentPos.x, parentPos.y, transform.position.z);
-
-
     }
     
 }

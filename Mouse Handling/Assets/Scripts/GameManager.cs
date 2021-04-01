@@ -15,16 +15,15 @@ public class GameManager : MonoBehaviour
 
 
     //test function
-    public void Update()
+    public void Update() //TODO: move UI 
     {
         if (Input.GetMouseButtonUp(0))
         {
             spawnRecieverNum++;
            // Debug.Log("release");
             reciever.spawnNow = true;
-            sender.CreateText("words");//test OOPS makes everything spawn at the same time haha
-            //GUESS above code fucks the system up and wont run the coroutine
-            //TODO: get text component and change it without ignoring the coroutine
+            sender.CreateText("words");//test 
+
             StartCoroutine("WaitSpawnTimes");
         }
 

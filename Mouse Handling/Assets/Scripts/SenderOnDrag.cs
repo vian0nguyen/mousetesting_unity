@@ -25,9 +25,9 @@ public class SenderOnDrag : MonoBehaviour
 
     private void Update()
     {
-        if (gm.selected == true)
+        if (gm.selected == true) 
         {
-            if(selected == false)
+            if(selected == false) //oops you were voted off the island
             {
                 Debug.Log("is this happening");
                 Destroy(gameObject);
@@ -41,7 +41,7 @@ public class SenderOnDrag : MonoBehaviour
         isDragSend = true;
         dragOffset = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         selected = true;
-        gm.selected = true;
+        gm.selected = true; //send this to an outside arbiter of truth
 
     }
 
@@ -52,14 +52,10 @@ public class SenderOnDrag : MonoBehaviour
     }
     private void OnMouseUp()
     {
-        
-        
         gm.selected = false;
         isDragSend = false;
         Sent();
 
-       
-        
     }
 
 
