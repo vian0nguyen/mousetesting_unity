@@ -9,6 +9,8 @@ TagManager:
   - Zone
   - Choice1
   - Choice2
+  - Sender
+  - Reciever
   layers:
   - Default
   - TransparentFX
