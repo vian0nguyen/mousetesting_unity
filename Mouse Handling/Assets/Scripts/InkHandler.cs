@@ -68,6 +68,7 @@ public class InkHandler : MonoBehaviour
         else
         {
             //commented out from skaterfools, lets see if the game starts
+            //TODO: game starts but GOES HERE imediately it's not counting current choices above!
             Button choice = CreateChoiceView("End of story.\nRestart?");
             choice.onClick.AddListener(delegate
             {
