@@ -58,8 +58,7 @@ public class InkHandler : MonoBehaviour
             {
                 Choice choice = story.currentChoices[i];
                 Button button = CreateChoiceView(choice.text.Trim());
-                button.onClick.AddListener(delegate //uhOH un poggers..all this is being handled by SenderOnDrag..
-                    {
+                button.onClick.AddListener(delegate {
                         OnClickChoiceButton(choice);
                     });
             }
@@ -76,7 +75,7 @@ public class InkHandler : MonoBehaviour
                 Debug.Log("story start!");
             });
 
-            RemoveChildren();
+           // RemoveChildren();
         }
 
     }
@@ -145,10 +144,9 @@ public class InkHandler : MonoBehaviour
         int childCount = canvas.transform.childCount;
         for (int i = childCount - 1; i >= 0; --i)
         {
-            //instead of destroy -> set button interactable to false
-            // GameObject.Destroy(canvas.transform.GetChild(i).gameObject);
-            //(canvas.transform.GetChild(i)).interactable = false; //how to use this child count?
-            buttonPrefab.interactable = false;
+
+           // GameObject.Destroy(canvas.transform.GetChild(i).gameObject);
+             buttonPrefab.interactable = false; //instead of destroy -> set button interactable to false
         }
 
 
