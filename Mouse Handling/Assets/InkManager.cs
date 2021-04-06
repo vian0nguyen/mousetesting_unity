@@ -107,6 +107,14 @@ public class InkManager : MonoBehaviour
 		for (int i = childCount - 1; i >= 0; --i)
 		{
 			GameObject.Destroy(canvas.transform.GetChild(i).gameObject);
+			
+		}
+
+		int childCounter = choiceZone.transform.childCount;
+		for (int i = childCounter - 1; i >= 0; --i)
+		{
+			GameObject.Destroy(choiceZone.transform.GetChild(i).gameObject);
+
 		}
 	}
 
