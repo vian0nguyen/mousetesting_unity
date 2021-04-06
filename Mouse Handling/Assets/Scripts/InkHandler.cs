@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Ink.Runtime;
+using System;
 using UnityEngine.UI;
 using TMPro;
 
 public class InkHandler : MonoBehaviour
 {
-    //public static event Action<Story> OnCreateStory; //is action deprecated?
-    void Awake()
+    public static event Action<Story> OnCreateStory; //is action deprecated?
+    /*void Awake()
     {
         // Remove the default message
         RemoveChildren();
-    }
+    }*/
 
     public void Begin()
     {
@@ -26,7 +27,7 @@ public class InkHandler : MonoBehaviour
     public void StartStory()
     {
         story = new Story(inkJSONAsset.text);
-        // if (OnCreateStory != null) OnCreateStory(story);
+         if (OnCreateStory != null) OnCreateStory(story);
         RefreshView();
     }
     public void RefreshView()
@@ -39,8 +40,6 @@ public class InkHandler : MonoBehaviour
         // Read all the content until we can't continue any more
         if (story.canContinue)
         {
-            //textBoxQ.enabled = true;
-            //textBoxClay.enabled = true;
             // Continue gets the next line of the story
             currentText = story.Continue();
 
@@ -50,10 +49,11 @@ public class InkHandler : MonoBehaviour
             CreateContentView(currentText);
 
         }
-
+        Debug.Log("count" + story.currentChoices.Count);
         // Display all the choices, if there are any!
         if (story.currentChoices.Count > 0)
         {
+            
             for (int i = 0; i < story.currentChoices.Count; i++)
             {
                 Choice choice = story.currentChoices[i];
