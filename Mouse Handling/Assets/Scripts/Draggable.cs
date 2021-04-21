@@ -14,7 +14,7 @@ public class Draggable : MonoBehaviour
 	SpriteRenderer sprite;
 
 	// Is the player currently dragging the object around?
-	bool isDragging;
+	public bool isDragging;
 
 	// We need to remember the initial position of the mouse cursor relative to
 	// the game object's transform when a drag begins. Otherwise, it will appear
@@ -61,6 +61,7 @@ public class Draggable : MonoBehaviour
 
 		isDragging = false;
 		sprite.color += new Color(0f, 0f, 0f, dragOpacity);
+
 	}
 
 	// Remember that for these to work, the game object must have a collider and
