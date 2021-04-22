@@ -70,10 +70,13 @@
     <Compile Include="Assets\Scripts\BuiltinEvents.cs" />
     <Compile Include="Assets\Scripts\Draggable.cs" />
     <Compile Include="Assets\Scripts\Dragging.cs" />
+    <Compile Include="Assets\Scripts\File.cs" />
+    <Compile Include="Assets\Scripts\FolderScriptable.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GlobalListener.cs" />
     <Compile Include="Assets\Scripts\InkHandler.cs" />
     <Compile Include="Assets\Scripts\InkManager.cs" />
+    <Compile Include="Assets\Scripts\OnDrag.cs" />
     <Compile Include="Assets\Scripts\RaycastOnClick.cs" />
     <Compile Include="Assets\Scripts\Remain.cs" />
     <Compile Include="Assets\Scripts\SenderOnDrag.cs" />

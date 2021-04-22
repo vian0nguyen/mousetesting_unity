@@ -88,6 +88,7 @@ GameObject:
   - component: {fileID: 4888693146838125945}
   - component: {fileID: 4439751869618353270}
   - component: {fileID: 3591402746552282211}
+  - component: {fileID: 8007673967595934315}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -291,3 +292,17 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -15.4}
   m_Size: {x: 431.5, y: 169.7}
   m_Direction: 1
+--- !u!114 &8007673967595934315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8219120391601336727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eac3e5939188b4df794f8d464f3dbabd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragOpacity: 0.5
+  isDragging: 0
