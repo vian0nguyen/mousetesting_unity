@@ -6,21 +6,25 @@ public class AddOn : MonoBehaviour
 {
     public Draggable draggable;
 
+    public FolderScriptable fileData; //is there a way to make this the object we id below?
 
     private void OnMouseUp()
     {
         
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("entering the zone"); 
-        if(draggable.isDragging == false)//next todo is to get a game manager to see is dragging is happening
-        {
-            Debug.Log("will i destroy?");
-            Destroy(collision.gameObject); //need to specify to destroy game object or it will only delete collider
-        }
+        //find component https://blog.terresquall.com/2020/02/checking-the-type-of-gameobject-you-are-colliding-with-in-unity/
+        //if game object has the file component do something
+        if (other.GetComponent<File>()) { 
         
+            //next make it pull the data and do something with it
+        
+        }
+
+
+
     }
 
     private void OnTriggerStay2D(Collider2D collision)

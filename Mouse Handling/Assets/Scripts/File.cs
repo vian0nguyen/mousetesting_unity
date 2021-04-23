@@ -22,9 +22,6 @@ public class File : MonoBehaviour
 
     }
 
-
-
-
     private void OnMouseDown() // 2
     {
         Debug.Log(fileData.FileName); // 3
@@ -32,6 +29,5 @@ public class File : MonoBehaviour
         Debug.Log(fileData.TimesOpened); // 3
         Debug.Log(fileData.InkJSONAsset.name); // 3
     }
-
 
 }

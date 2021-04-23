@@ -34,8 +34,6 @@ public class FolderScriptable : ScriptableObject
             return altText;
         }
     }
-    
-
     public int TimesOpened
     {
         get
