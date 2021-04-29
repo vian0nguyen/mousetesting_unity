@@ -7,7 +7,9 @@ public class AddOn : MonoBehaviour
     public Draggable draggable;
 
     public FolderScriptable fileData; //is there a way to make this the object we id below?
-
+    //https://www.youtube.com/watch?v=2WnAOV7nHW0 // inventory system with scriptable objects (complicated?)
+    //https://www.youtube.com/watch?v=d9oLS5hy0zU //inventory system add and remove using singletons and manager
+    //above is a good base for system architecture
     private void OnMouseUp()
     {
         
