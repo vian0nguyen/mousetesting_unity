@@ -100,7 +100,11 @@ MonoBehaviour:
   m_MinSize: {x: 333, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 148
+=======
+  controlID: 145
+>>>>>>> Stashed changes
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,10 +126,14 @@ MonoBehaviour:
     y: 30
     width: 1842
     height: 971
-  m_MinSize: {x: 881, y: 492}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MinSize: {x: 877, y: 492}
+  m_MaxSize: {x: 18003, y: 14042}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 146
+=======
+  controlID: 182
+>>>>>>> Stashed changes
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,8 +179,8 @@ MonoBehaviour:
     y: 0
     width: 290
     height: 587
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -292,10 +300,14 @@ MonoBehaviour:
     y: 0
     width: 1469
     height: 971
-  m_MinSize: {x: 605, y: 492}
+  m_MinSize: {x: 602, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 147
+=======
+  controlID: 56
+>>>>>>> Stashed changes
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,10 +330,14 @@ MonoBehaviour:
     y: 0
     width: 1469
     height: 587
-  m_MinSize: {x: 605, y: 221}
-  m_MaxSize: {x: 12005, y: 4021}
+  m_MinSize: {x: 602, y: 221}
+  m_MaxSize: {x: 12002, y: 4021}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 126
+=======
+  controlID: 57
+>>>>>>> Stashed changes
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -552,9 +568,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
       m_SelectedIDs: 66faffff
       m_LastClickedID: -1434
       m_ExpandedIDs: 6efaffff
+=======
+      m_SelectedIDs: fee3ffff
+      m_LastClickedID: -7170
+      m_ExpandedIDs: a0f0ffffe0f0ffffa2f5ffffb6f5ffffd6f5ffffe8f5ffff26f6ffffb0f6ffff86f7ffffa4f7ffff58f8ffff66f8ffffb0f8fffff4f8ffffc0faffff64fbffff
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
